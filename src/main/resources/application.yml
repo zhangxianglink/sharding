@@ -16,7 +16,7 @@ spring:
         driver-class-name: com.mysql.cj.jdbc.Driver
         username: root
         password: shard@#WE23we
-        url: jdbc:mysql://101.133.132.255:3306/jacklove?characterEncoding=utf8&useSSL=false&serverTimezone=Asia/Shanghai&rewriteBatchedStatements=true
+        url: jdbc:mysql://xxxx:3306/jacklove?characterEncoding=utf8&useSSL=false&serverTimezone=Asia/Shanghai&rewriteBatchedStatements=true
         maxPoolSize: 100
         minPoolSize: 5
       ds2:
@@ -24,7 +24,7 @@ spring:
         driver-class-name: com.mysql.cj.jdbc.Driver
         username: root
         password: shard@#WE23we
-        url: jdbc:mysql://106.14.220.73:3306/jacklove?characterEncoding=utf8&useSSL=false&serverTimezone=Asia/Shanghai&rewriteBatchedStatements=true
+        url: jdbc:mysql://xxxx:3306/jacklove?characterEncoding=utf8&useSSL=false&serverTimezone=Asia/Shanghai&rewriteBatchedStatements=true
         maxPoolSize: 100
         minPoolSize: 5
     sharding:
